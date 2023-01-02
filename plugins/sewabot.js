@@ -17,28 +17,17 @@ let ri = '25'
 let pk = '30'
 let info = `
 ╭━━━━「 *SEWA* 」
-┊⫹⫺ *Hemat:* _${sh}k/grup (7 Hari)_
-┊⫹⫺ *Normal:* _${sn}k/grup (1 bulan)_                                         
-┊⫹⫺ *permanen:* = _${sv}k/grup (unlimited)_
+┊⫹⫺ *Hemat:* _25000💹/grup (7 Hari)_
+┊⫹⫺ *Normal:* _350000💹/grup (1 bulan)_                                         
+┊⫹⫺ *permanen:* = _1000000💹/grup (unlimited)_
 ╰═┅═━––––––๑
 
 ╭━━━━「 *PREMIUM* 」
-┊⫹⫺ *Hemat:* _${ph}k (7 Hari)_
-┊⫹⫺ *Normal:* _${pn}k (1 bulan)_                                       
-┊⫹⫺ *Permanent:* = _${ppm}k (Unlimited)_
+┊⫹⫺ *Hemat:* _50000💹 (7 Hari)_
+┊⫹⫺ *Normal:* _200000💹 (1 bulan)_                                       
+┊⫹⫺ *Permanent:* = _2000000💹 (Unlimited)_
 ╰═┅═━––––––๑
-╭━━━━「 *PERPANJANG SEWA* 」
-┊⫹⫺ *Hemat:* _3k (7 Hari)_
-┊⫹⫺ *Normal:* _6k (1 bulan)_                                       
-╰═┅═━––––––๑
-╭━━━━「 *PERPANJANG PREMIUM* 」
-┊⫹⫺ *Hemat:* _3k (7 Hari)_
-┊⫹⫺ *Normal:* _6k (1 bulan)_                                       
-╰═┅═━––––––๑
-╭━━━━「 *JASARUN* 」
-┊⫹⫺ *Hemat:* _${ri}k (7 Hari)_
-┊⫹⫺ *Normal:* _${pk}k (1 bulan)_                                       
-╰═┅═━––––––๑
+
 ༅ _*FITUR BOT*
 
 ✧ *Virtex Menu✅*
@@ -46,26 +35,9 @@ let info = `
 ✧ *Anti Link✅*
 ✧ *Button Menu✅*
 ✧ *Anti Sticker✅*
-✧ *Anti Toxic↗️*
 ✧ *DLL*
-✧ *MEMBELI BERATI SETUJU*
 
 _Total Fitur:_ 570++
-
-*⫹⫺ PAYMENT:*
-• *Dana:*
-• *Gopay:*
-• *Ovo:*
-• *QRIS*
-• *ALL PAYMENT*
-–––––– *🐾 Kebijakan* ––––––
-🗣️: Kak, Kok harganya mahal banget?
-💬: Mau tawar menawar? boleh, silahkan chat owner aja
-
-🗣️: Scam ga nih kak?
-💬: Enggalah, Owner 100% Tepati janji #STAYHALAL
-
-▌│█║▌║▌║║▌║▌║█│▌
 `
 const sections = [
    {
