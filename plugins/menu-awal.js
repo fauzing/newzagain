@@ -5,7 +5,7 @@ let totalf = Object.values(global.plugins).filter(
   ).length;
  await conn.sendButton(m.chat, `SELAMAT DATANG DI BOT SAYA! KAMI ADALAH BOT ZINGFO, SEDIA MEMBANTUMU SAAT ADA MASALAH :D
 
-(btw .level untuk mengecek/levelup kan levelmu)_\n`,wm + '\n\n' + botdate, giflogo, [['SEMUA MENU','.? all'],['LIST MENU','.siuuu']], m, {
+(btw .level untuk mengecek/levelup kan levelmu)_\n`,wm + '\n\n' + botdate, giflogo, [['GRUP','.gcbot'],['LIST MENU','.siuuu']], m, {
 contextInfo: { externalAdReply :{
                         mediaUrl: '',
                         mediaType: 2,
