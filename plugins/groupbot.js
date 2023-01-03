@@ -4,9 +4,9 @@ let info = `
 `
 const sections = [
    {
-	title: `𝗝𝗢𝗜𝗡 𝗞𝗘 𝗚𝗥𝗨𝗣 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗕𝗢𝗧*\n\n\n━━━〔 Dᴏɴ'ᴛ ғᴏʀɢᴇᴛ Dᴏɴᴀᴛɪᴏɴ 〕━━━`,
+	title: `𝗝𝗢𝗜𝗡 𝗞𝗘 𝗚𝗥𝗨𝗣 𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 𝗕𝗢𝗧*\n\n\n━━━━━`,
 	rows: [
-	    {title: '💌 › Group NexBotz', description: "Group Utama Fangz NexBotz", rowId:".gcbot"}
+	    {title: '🏣 Group ', description: "Main di grup gw yuk!", rowId:".gcbot"}
 	    ]
       },
 ]
