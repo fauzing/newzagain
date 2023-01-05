@@ -11,24 +11,22 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 ------- ${nameown} -------
 
 📮 *Note:*
-• Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
+• Owner menerima save contact
 • Berbicaralah yang sopan & tidak spam
-• Owner Hanya merespon yang berkaitan dengan BOT
 • No Telp`
 
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : Bang Fuad
-${htjava} *✉️ Nama RL* : Satria
-${htjava} *♂️ Gender* : Boys
+${htjava} *💌 Nama* : Zaifu
+${htjava} *✉️ Nama RL* : faz̷̶̶̷̶̴̴̢̧̛͈̀̀̀͟͜͜͝҉͏̴̡̡̢̡̢̀͟͝͏̷̵̢́͠į̸̶̴̡̳͚҉̸̸̸̸̴̷̢̨͘͟͜͠ ̢̠b̸̴̷̴̶̵̷̷̧̧̡̢̧̛̛͖̞̀́́͘͟͟͜͠͝͝r̴̢͕͟͏͜҉̷̴̧̛͘͞͏̷̡̧̛́̕͢͞a̶̷̖̮̗͍͝ṋ̨̨̡̳̻͟͡͝͏̶̵̸̸̀͡d̸̷̢̛́̀͘͟͢͞͠҉̶̕͠͡͏̶̷̸̴̵̨̡̧̢̢̢̛͘͟͟͡͠͝҉̸̴̷̡͞͝͝ờ̸̷̵̶̴̸̶̢̢̛͈̞̲̀͘̕͞͡ͅ͏̨̧͞҉̵̸̡̛́͘͢͠͝҉̕͡҉̡̡̛͘̕͞
+${htjava} *♂️ Gender* : z̷̶̶̷̶̴̴̢̧̛͈̀̀̀͟͜͜͝҉͏̴̡̡̢̡̢̀͟͝͏̷̵̢́͠į̸̶̴̡̳͚҉̢͟ṋ̨̨̡̳̻͟͡͝͏̶̵̸̸̀͡d̸̷̢̛́̀͘͟͢͞͠҉̶̕͠͡͏̶̷̸̴̵̨̡̧̢̢̢̛͘͟͟͡͠͝҉̸̴̷̡͞͝͝ờ̸̷̵̶̴̸̶̢̢̛͈̞̲̀͘̕͞͡ͅ͏̨̧͞҉̵̸̡̛́͘͢͠͝҉̕͡҉̡̡̛͘̕͞
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : PRIVATE
-${htjava} *🧮 Kelas* : PRIVATE
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
+${htjava} *⏰ Tanggal lahir* : AGUSTUS 17
+${htjava} *🎨 Umur* : 15
+${htjava} *🧮 Kelas* : 3
+${htjava} *🧩 Hobby* : CODING ADD ON
+${htjava} *💬 Sifat* : Suka ngebadut/joke
 ${htjava} *🗺️ Tinggal* : Jawa Barat, Bekasi
 ${htjava} *❤️ Waifu* : Kaede Hitotsuba
 
