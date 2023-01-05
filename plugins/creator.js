@@ -27,8 +27,8 @@ ${htjava} *🎨 Umur* : 15
 ${htjava} *🧮 Kelas* : 3
 ${htjava} *🧩 Hobby* : CODING ADD ON
 ${htjava} *💬 Sifat* : Suka ngebadut/joke
-${htjava} *🗺️ Tinggal* : Jawa Barat, Bekasi
-${htjava} *❤️ Waifu* : Kaede Hitotsuba
+${htjava} *🗺️ Tinggal* : Kalimantan timur
+${htjava} *❤️ Waifu* : Ambatukam
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 •·––––––––––––––––––––––––––·•
@@ -38,15 +38,15 @@ const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
-	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
+	    {title: "🌀 • Nomor", rowId: ".owner nomor"},
+	{title: "👕 • Biodata", rowId: ".owner bio"},
 	]
     },{
 	title: `${htjava} SUPPORT ME –––––––·•`,
 	rows: [
 	    {title: "💹 • Donasi", rowId: ".donasi"},
 	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
+	{title: "🔮 • Premium", rowId: ".premium"},
 	]
   },
 ]
