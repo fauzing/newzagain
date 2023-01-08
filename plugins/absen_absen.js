@@ -28,6 +28,5 @@ handler.help = ['absen']
 handler.tags = ['group']
 handler.command = /^(absen|hadir)$/i
 handler.group = true
-handler.admin = true
 
 export default handler
