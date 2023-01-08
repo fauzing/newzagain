@@ -94,7 +94,7 @@ start()
 console.log(e)
 }
 }
-handler.help = ['jadibot'].map(v => v + ' <text>')
+handler.help = ['jadibot']
 handler.tags = ['internet']
 handler.command = /^(jadibot)$/i
 handler.limit = true
