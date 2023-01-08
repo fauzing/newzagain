@@ -11,9 +11,6 @@ const qrcode = require('qrcode');
 const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep, reSize } = require('./myfunc')
 const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
 
-if (global.listJadibot instanceof Array) console.log()
-else global.listJadibot = []
-
 const jadibot = async (conn, msg, from) => {
 const { sendImage, sendMessage } = conn;
 const { reply, sender } = msg;
@@ -24,7 +21,7 @@ let { version, isLatest } = await fetchLatestBaileysVersion();
 const conn = await makeWaSocket({
 auth: state,
 printQRInTerminal: true,
-browser: ['Bot Numpang', "Chrome", "1.0.0"],
+browser: ['izin numpang', "Chrome", "1.0.0"],
 logger: logg({ level: "silent" }),
 version,
 })
@@ -60,7 +57,7 @@ global.listJadibot.push(conn)
 await reply(`*Connected to Whatsapp - Bot*\n\n*User :*\n _*× ID : ${conn.decodeJid(conn.user.id)}*_`)
 let user = `${conn.decodeJid(conn.user.id)}`
 let txt = `*Terdeteksi menumpang Jadibot*\n\n _× User : @${user.split("@")[0]}_`
-conn.sendMessage('6283834558105@s.whatsapp.net', {text: txt, mentions : [user]})
+conn.sendMessage('6282159532255@s.whatsapp.net', {text: txt, mentions : [user]})
 }
 
 if (connection === 'close') {
@@ -100,4 +97,10 @@ console.log(e)
 }
 }
 
-module.exports = { jadibot, listJadibot }
+handler.help = ['jadibot'].map(v => v + ' <text>')
+handler.tags = ['nulis']
+handler.command = /^(jadibot)$/i
+handler.limit = true
+handler.premium = true
+
+export default handler
