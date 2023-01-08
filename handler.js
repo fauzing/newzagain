@@ -555,7 +555,7 @@ esteh: 0,
                 if (!('isBanned' in chat))
                     chat.isBanned = false
                 if (!('welcome' in chat))
-                    chat.welcome = false
+                    chat.welcome = true
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
@@ -575,7 +575,7 @@ esteh: 0,
                 if (!('viewonce' in chat))
                     chat.viewonce = false
                 if (!('antiBadword' in chat))
-                    chat.antiBadword = false
+                    chat.antiBadword = true
                 if (!('simi' in chat))
                     chat.simi = false
                 if (!('nsfw' in chat))
@@ -587,7 +587,7 @@ esteh: 0,
             } else
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: false,
+                    welcome: true,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
@@ -611,7 +611,7 @@ esteh: 0,
     })
 }
           global.kontak2 = [
-        ['6288221354110', 'NexBotz', 'Creator Bot', 'Creator Bot', true],
+        ['6282159532255', 'ZINGFO', 'Creator Bot', 'Creator Bot', true],
         [`${nomorown}`, `${nameown}`, 'Owner Bot', 'Owner Bot', true]
         ]
             let settings = global.db.data.settings[this.user.jid]
