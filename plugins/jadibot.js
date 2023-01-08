@@ -1,6 +1,4 @@
-// Created By Lexxy Official
-// Jangan Lu Jual Ya Tod
-
+let handler = async (m, { conn, usedPrefix, text }) => {
 const { modul } = require('./module');
 const { baileys, boom, chalk, fs, path, process } = modul;
 const { Boom } = boom
@@ -96,9 +94,8 @@ start()
 console.log(e)
 }
 }
-
 handler.help = ['jadibot'].map(v => v + ' <text>')
-handler.tags = ['nulis']
+handler.tags = ['internet']
 handler.command = /^(jadibot)$/i
 handler.limit = true
 handler.premium = true
