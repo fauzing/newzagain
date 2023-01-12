@@ -37,7 +37,7 @@ if(conn.user.jid !== conns.user.jid) return m.reply('Tidak bisa membuat Bot pada
     
 const config = { 
     version: version, 
-    printQRInTerminal: false,
+    printQRInTerminal: true,
     auth: state, 
     receivedPendingNotifications: false
     }
